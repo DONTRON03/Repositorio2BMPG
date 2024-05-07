@@ -11,5 +11,4 @@ int main(){
 	
 	fin=pow(num,potencia);
 	printf("El resultado de %d ^ %d es %d: ",num, potencia, fin);
-	
 }

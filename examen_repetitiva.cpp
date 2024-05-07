@@ -8,8 +8,8 @@ int main(){
 	printf("ingresa la potencia: ");
 	scanf("%d",&potencia);
 	
-	for (int i = 0; i<=num; i+=potencia){
-		i=num*num;
+	for (int i = 0; i<=num*num; i+=potencia){
+		
 		printf("El resultado de %d^%d es %d :",num,potencia,i);
 	}
 }
